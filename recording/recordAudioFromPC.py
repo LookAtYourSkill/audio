@@ -2,7 +2,7 @@ import soundcard as sc
 import soundfile as sf
 
 # file name.
-SOUND_PATH = "liveAudioConverter/sounds/pcOutput.wav"
+SOUND_PATH = "FILEPATH"
 # [Hz] sampling rate.
 # ! SAMPLE_RATE = 48000
 SAMPLE_RATE = 44100
