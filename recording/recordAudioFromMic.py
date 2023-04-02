@@ -1,7 +1,7 @@
 import pyaudio
 import wave
 
-SOUND_PATH = "liveAudioConverter/sounds/micOutput.wav"
+SOUND_PATH = "FILEPATH"
 
 mic = pyaudio.PyAudio()
 stream = mic.open(format=pyaudio.paInt16, channels=1, rate=44100, input=True, output=True, frames_per_buffer=2048)
